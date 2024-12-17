@@ -67,3 +67,41 @@ nav .nav-links a {
   width: 100%;
   height: auto;
 }
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about div {
+  margin-top: 100px;
+  font-size: 48px;
+  width: 70vw;
+  text-align: center;
+}
+
+.frames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  margin-top: 50px;
+}
+.frames img {
+  width: 400px;
+  height: auto;
+  padding: 10px;
+}
+
+.frames p {
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-size: 17px;
+}
+
+.frames p:nth-child(3) {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
