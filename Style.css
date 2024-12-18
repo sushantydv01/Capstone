@@ -140,3 +140,20 @@ nav .nav-links a {
 .card-detail {
   margin-top: 10px;
 }
+.border {
+  margin-top: 10px;
+  height: 90%;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.card-head {
+  justify-self: start;
+}
+.card-head p {
+  font-weight: 500;
+  color: black;
+}
+
+.card-head p + p {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
